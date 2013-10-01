@@ -6,13 +6,13 @@ The project was originally inspired by the multiboards.net project. The feature 
 
 What SlackeRss is :
 
-A tiny client-side RSS reader. It just gives you a snapshot of the last news for each of your websites (feed). Saved feeds are stored directly in the browser using localStorage.
+A minimalist client-side RSS reader. It just gives you a snapshot of the last news for each of your websites (feed). Saved feeds are stored directly in the browser using localStorage.
 
 What it isn't :
 
--a non-tiny RSS reader : SlackeRss won't come after you with a list of still-not-read news.
+A non-minimalist RSS reader : SlackeRss won't come after you with a list of still-not-read news.
 
--a database-based application : your feeds are stored IN YOUR BROWSER. Go to SlakeRss from another computer, be told that you won't find your saved feeds waiting for you.
+A database-based application : your feeds are stored IN YOUR BROWSER. Go to SlakeRss from another computer, be told that you won't find your saved feeds waiting for you.
 
 Get started :
 
