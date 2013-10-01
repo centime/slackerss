@@ -1,0 +1,24 @@
+SlackeRss
+
+SlackeRss is a client-side rss reader.
+
+About :
+    The project was originally inspired by <a href='http://multiboards.net/'>multiboards.net</a>. The missing feature being of course not being allowed to chose which RSS feeds to follow.
+
+Usage :
+    
+
+Installation :
+    Just clone the github repository and put it in your http server. That's it. No database needed, no php, no configuration or anything.
+    Just realize that SlakeRss won't run from a local file due to cross-domain policies. You will need a http server.
+
+Libs :
+    backbone.js
+    backbone.localStorage.js
+    underscore.js
+    coffee-script.js
+    jquery.js
+    bootstrap.css
+    bootstrap.responsive.css
+
+
