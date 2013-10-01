@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SlackeRss-News the Slack way</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Centime">
+<!--
+    /*
+	 * ----------------------------------------------------------------------------
+	 * "THE BEER-WARE LICENSE" (Revision 42):
+	 * <quelques.centimes@gmail.com> wrote this file. As long as you retain this notice you
+	 * can do whatever you want with this stuff. If we meet some day, and you think
+	 * this stuff is worth it, you can buy me a beer in return. Centime
+	 * ----------------------------------------------------------------------------
+	 */
+	
+	
+		*********************************************************
+		*														*
+		*	Special thanks go to Sayat, for the graphics !		*
+		*														*
+		*********************************************************
+-->
+
+	<!-- scripts -->
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/underscore-min.js"></script>
+	<script src="js/backbone.js"></script>
+	<script src="js/backbone.localStorage.js"></script>
+	<script src="js/coffee-script.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/slakerss.coffee" type="text/coffeescript"></script>
+
+    <!-- styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/slakerss.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+        <a class="brand" href="#"><img src="img/slackerss.png"/></a>
+		<div class="share">
+			<div id="open_new_feed" class="explore">
+				<img src="img/newfeed.png"/>
+			</div>
+			<input type="range" min="1" max="7" step="1" value="4" id="slidebar">
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id="main" class="container">
+	  <img class="logo" src="img/snorlax.png"/>	
+      <div id="panel_new_feed" class="hero-unit" style="display:none">
+		<br>
+        <p>
+			Too add a new feed, you want to save <a id="bookmark">SlackIt</a> as a Bookmark.<br>
+			<br>
+			You can then activate it on any website you want to get its RSS feed added (assuming it has a one, properly declared)
+		</p>
+        <br>
+        <p>Else, you can add the feed manually (you'll then have to find the rss url by yourself. Hint : search the source)</p>
+			<div id="new_feed">
+				<input id="new_feed_name" value="Feed's name" class="new_feed_input"></input>
+				<input id="new_feed_rss" value="Feed's RSS url" class="new_feed_input"></input>
+			</div>
+		<br>
+		<br>
+      </div>
+      <!-- Here be the feeds -->
+      <div id="feeds" class="row"></div>
+      <hr>
+      <footer>
+       <img src="img/slackerss.png"/> <span>&copy; Your mom.</span>
+      </footer>
+    </div>
+  </body>
+</html>
+
