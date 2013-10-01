@@ -16,11 +16,10 @@ What it isn't :
 
 Get started :
 
--Click New Feed at the top right of the page, it will open a new panel.
--From here, you are given a link called SlackIt. Saved as a bookmark in any modern browser, it will allow you to just click it, when browsing on a beloved news site, to add it's RSS-feed to SlackeRss.
+Click New Feed at the top right of the page, it will open a new panel.
+From here, you are given a link called SlackIt. Saved as a bookmark in any modern browser, it will allow you to just click it, when browsing on a beloved news site, to add it's RSS-feed to SlackeRss.
 
--To save SlackIt as a bookmark :
-
+To save SlackIt as a bookmark :
 -Firefox : right-click -> 'Bookmark this link'
 -Chrom(ium) : right-click -> 'copy link location'
                     menu -> 'Bookmarks' -> 'New' -> 'link' = YourCopiedLink
