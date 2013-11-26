@@ -1,8 +1,12 @@
-The project was originally inspired by the multiboards.net project. The feature I felt missing being of course not being allowed to chose which RSS feeds to follow.
+The project was originally inspired by the multiboards.net project (sam & max). The feature I felt missing being of course not being allowed to chose which RSS feeds to follow.
+
+___________________________________________________________________________________
 
 What SlackeRss is :
+-------------------
 
 A minimalist client-side RSS reader. It just gives you a snapshot of the last news for each of your websites (feed). Saved feeds are stored directly in the browser using localStorage.
+_____________________________________________________________________________________
 
 What it isn't :
 
@@ -32,5 +36,3 @@ Libs :
     jquery.js
     bootstrap.css
     bootstrap.responsive.css
-
-
